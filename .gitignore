@@ -3,3 +3,7 @@
 ################################################################################
 
 /DockerWeb2/obj
+/DockerWeb2/bin/Debug/net5.0
+/DockerWebAPI/obj
+/DockerWebAPI/bin/Debug/net5.0
+/.vs/DockerDemo

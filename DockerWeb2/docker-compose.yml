@@ -1,0 +1,14 @@
+﻿version: '3.7'
+
+services:
+  docker_web2:
+    image: dockerweb2_1.0.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_DBCONN=mongodb://192.168.183.230:27089
+      - ASPNETCORE_DBNAME=dockerdb 
+    ports:
+      - "8002:80"
+    
